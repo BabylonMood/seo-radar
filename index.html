@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Radar · análisis y optimización</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='none' stroke='%233ddc97' stroke-width='7'/%3E%3Cpath d='M30 60 L45 42 L55 52 L70 36' fill='none' stroke='%233ddc97' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="title-row">
+      <h1>SEO Radar</h1>
+      <span class="subtitle">analítica orgánica &middot; decisiones accionables &middot; todo en tu navegador</span>
+    </div>
+    <div class="statusstrip" id="statusstrip"></div>
+  </header>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <main id="view"></main>
+
+  <footer>
+    <p>
+      Conecta Search Console, GA4 y SEMrush (importando sus CSVs), detecta oportunidades y te dice qué optimizar primero.
+      Los datos viven solo en <code>localStorage</code>: nada sale de tu navegador salvo que actives la IA en Ajustes.
+    </p>
+  </footer>
+</div>
+
+<script src="js/store.js"></script>
+<script src="js/importers.js"></script>
+<script src="js/analyze.js"></script>
+<script src="js/content.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/report.js"></script>
+<script src="js/samples.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
